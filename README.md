@@ -1,5 +1,7 @@
-# Flash Drum Simulator
+# FlashR
+*Flash Drum Simulator*
 
+## Overview
 A desktop application for simulating a flash drum separator, a device used to separate a mixture of liquid and vapor phases. Built with PyQt5 for the GUI and CoolProp for thermodynamic property calculations.
 
 ## Features
@@ -14,9 +16,7 @@ A desktop application for simulating a flash drum separator, a device used to se
 - Supports a wide range of chemical components via CoolProp
 - Modular codebase for easy extension
 
-## Installation
-
-### Prerequisites
+## Requirements
 - Python 3.7+
 - [CoolProp](http://www.coolprop.org/)
 - [PyQt5](https://pypi.org/project/PyQt5/)
@@ -24,23 +24,21 @@ A desktop application for simulating a flash drum separator, a device used to se
 - [numpy](https://numpy.org/)
 - [scipy](https://scipy.org/)
 
-### Install dependencies
-It is recommended to use a virtual environment:
-
-```bash
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On Unix/Mac:
-# source venv/bin/activate
-
-pip install PyQt5 CoolProp matplotlib numpy scipy
-```
+## Installation
+## Installation
+1. **Clone the repository:**
+   ```bash
+   git clone <repo-url>
+   cd "ThermoProp"
+   ```
+2. **Install dependencies:**
+   You can use pip to install the required packages:
+   ```bash
+   pip install CoolProp PyQt5 matplotlib numpy scipy 
+   ```
 
 ## Usage
-
-Run the main application:
-
+To launch the application, run:
 ```bash
 python main.py
 ```
@@ -52,7 +50,6 @@ A window will open where you can:
 - Run the simulation to view calculated phase splits, compositions, K-values, and property plots
 
 ## Project Structure
-
 ```
 2513P Flash Drum Simulator/
 ├── main.py                  # Entry point, launches the GUI
@@ -63,17 +60,10 @@ A window will open where you can:
 └── ...
 ```
 
-## Author
-Faiq Raedaya
-
 ## License
-[Specify your license here, e.g., MIT, GPL, etc.]
+This project is provided under the MIT License.
 
 ## Acknowledgments
 - [CoolProp](http://www.coolprop.org/) for property calculations
 - [PyQt5](https://riverbankcomputing.com/software/pyqt/intro/) for the GUI framework
 - [matplotlib](https://matplotlib.org/) for plotting
-
----
-
-*For academic or educational use. Contributions and suggestions are welcome!* 
