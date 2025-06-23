@@ -1,5 +1,4 @@
 # FlashR
-*Flash Drum Simulator*
 
 ## Overview
 A desktop application for simulating a flash drum separator, a device used to separate a mixture of liquid and vapor phases. Built with PyQt5 for the GUI and CoolProp for thermodynamic property calculations.
@@ -25,29 +24,26 @@ A desktop application for simulating a flash drum separator, a device used to se
 - [scipy](https://scipy.org/)
 
 ## Installation
-## Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
-   cd "ThermoProp"
+   git clone https://github.com/faiqraedaya/FlashR
+   cd "FlashR"
    ```
 2. **Install dependencies:**
-   You can use pip to install the required packages:
    ```bash
    pip install CoolProp PyQt5 matplotlib numpy scipy 
    ```
 
 ## Usage
-To launch the application, run:
-```bash
-python main.py
-```
-
-A window will open where you can:
-- Set operating conditions (temperature, pressure, feed rate, units)
-- Select and add components from CoolProp's database
-- Specify feed composition (mole/mass fractions)
-- Run the simulation to view calculated phase splits, compositions, K-values, and property plots
+1. To launch the application, run:
+  ```bash
+  python main.py
+  ```
+2. A window will open where you can:
+  - Set operating conditions (temperature, pressure, feed rate, units)
+  - Select and add components from CoolProp's database
+  - Specify feed composition (mole/mass fractions)
+  - Run the simulation to view calculated phase splits, compositions, K-values, and property plots
 
 ## Project Structure
 ```
@@ -62,8 +58,3 @@ A window will open where you can:
 
 ## License
 This project is provided under the MIT License.
-
-## Acknowledgments
-- [CoolProp](http://www.coolprop.org/) for property calculations
-- [PyQt5](https://riverbankcomputing.com/software/pyqt/intro/) for the GUI framework
-- [matplotlib](https://matplotlib.org/) for plotting
