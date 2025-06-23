@@ -45,16 +45,5 @@ A desktop application for simulating a flash drum separator, a device used to se
   - Specify feed composition (mole/mass fractions)
   - Run the simulation to view calculated phase splits, compositions, K-values, and property plots
 
-## Project Structure
-```
-2513P Flash Drum Simulator/
-├── main.py                  # Entry point, launches the GUI
-├── core/
-│   ├── separator_simulator.py  # Main PyQt5 GUI logic and user interface
-│   ├── flash_calculation.py    # Core thermodynamic flash calculation logic
-│   └── plot_canvas.py          # Matplotlib canvas integration for PyQt5
-└── ...
-```
-
 ## License
 This project is provided under the MIT License.
