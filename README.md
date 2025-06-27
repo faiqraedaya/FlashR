@@ -30,15 +30,10 @@ FlashR is a simple desktop application for simulating flash drums for separating
    ```
 
 ## Usage
-1. To launch the application, run:
+1. **Launch the application**
   ```bash
   python main.py
   ```
-2. Set operating conditions (temperature, pressure, feed rate).
-3. Define a mixture by selecting components from CoolProp's database.
-4. Specify feed composition (mole/mass fractions)
-5. Run the simulation
-6. View calculated phase splits, compositions, K-values, and property plots
 
 ## License
 This project is provided under the MIT License.
