@@ -1,19 +1,14 @@
 # FlashR
 
 ## Overview
-FlashR is a simple application for simulating a flash drum separator, a device used to separate a mixture of liquid and vapor phases. Built with PyQt5 for the GUI and CoolProp for thermodynamic property calculations.
+FlashR is a simple desktop application for simulating flash drums for separating vapour/liquid mixtures.
 
 ## Features
-- Input parameters: Temperature, Pressure, Feed rate, Feed composition
-- Calculates:
-  - Vapor and liquid compositions
-  - Vapor and liquid flow rates
-  - Recovery factors
-  - K-values (equilibrium ratios)
-  - Property and phase plots
-- Interactive GUI for parameter entry and results visualization
-- Supports a wide range of chemical components via CoolProp
-- Modular codebase for easy extension
+- Interactive GUI built with PyQt5
+- Supports user-defined mixtures using CoolProp
+- User input for mixture definition, temperature, pressure, and feed rate
+- Calculates vapor and liquid compositions, flow rates, recovery factors, K-values (equilibrium ratios)
+- Visualizes composition data, property and phase plots
 
 ## Requirements
 - Python 3.7+
@@ -39,11 +34,11 @@ FlashR is a simple application for simulating a flash drum separator, a device u
   ```bash
   python main.py
   ```
-2. A window will open where you can:
-  - Set operating conditions (temperature, pressure, feed rate, units)
-  - Select and add components from CoolProp's database
-  - Specify feed composition (mole/mass fractions)
-  - Run the simulation to view calculated phase splits, compositions, K-values, and property plots
+2. Set operating conditions (temperature, pressure, feed rate).
+3. Define a mixture by selecting components from CoolProp's database.
+4. Specify feed composition (mole/mass fractions)
+5. Run the simulation
+6. View calculated phase splits, compositions, K-values, and property plots
 
 ## License
 This project is provided under the MIT License.
